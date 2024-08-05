@@ -1,0 +1,13 @@
+//store-button
+.store-btn {
+    background-color: $black-color;
+    color: $white-color;
+    display: block;
+    padding: 16px 0;
+    text-align: center;
+    font-size: 19px;
+
+    &:hover {
+        background-color: $secondary;
+    }
+}
