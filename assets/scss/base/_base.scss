@@ -1,17 +1,17 @@
 //base
 body {
-  font-family: "Noto Sans TC","Roboto", sans-serif;
+  font-family: "Noto Sans TC", "Roboto", sans-serif;
   line-height: 1.5;
 }
 
 *,
 *::before,
 *::after {
-box-sizing: border-box;
-//outline: solid 1px;
+  box-sizing: border-box;
+  //outline: solid 1px;
 }
 
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
@@ -26,18 +26,23 @@ img {
 .h1 {
   font-size: 64px;
 }
+
 .h2 {
   font-size: 48px;
 }
+
 .h3 {
   font-size: 36px;
 }
+
 .h4 {
   font-size: 24px;
 }
+
 .fs-1 {
   font-size: 20px;
 }
+
 .small {
   font-size: 14px;
 }
