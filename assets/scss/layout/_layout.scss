@@ -1,0 +1,55 @@
+//gap
+.gap-8 {
+    gap: 32px;
+}
+
+
+//display
+.d-flex {
+    display: flex;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.flex-column {
+    flex-direction: column;
+}
+.justify-center {
+    justify-content: center;
+}
+.align-center {
+    align-items: center;
+}
+
+//text
+.text-center {
+    text-align: center;
+}
+
+//padding
+.py-3 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.pt-12 {
+    padding-top: 48px;
+}
+
+
+//margin
+.mb-2 {
+    margin-bottom: 8px;
+}
+.mb-5 {
+    margin-bottom: 20px;
+}
+.mb-6 {
+    margin-bottom: 24px;
+}
+.mb-8 {
+    margin-bottom: 32px;
+}
+
+.block {
+    display: block;
+}

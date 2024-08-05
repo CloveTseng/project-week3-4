@@ -1,0 +1,54 @@
+//base
+body {
+  font-family: "Noto Sans TC","Roboto", sans-serif;
+  line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+//outline: solid 1px;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+//font
+.h1 {
+  font-size: 64px;
+}
+.h2 {
+  font-size: 48px;
+}
+.h3 {
+  font-size: 36px;
+}
+.h4 {
+  font-size: 24px;
+}
+.fs-1 {
+  font-size: 20px;
+}
+.small {
+  font-size: 14px;
+}
+
+//color
+$primary: #AA0601;
+$secondary: #650300;
+$bg-section: #FBF2F2;
+$black-color: #000;
+$white-color: #fff;
+
+.bg-primary {
+  background-color: $primary;
+}
