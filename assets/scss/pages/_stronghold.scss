@@ -6,9 +6,10 @@
     }
 }
 
-.stronghold-title {
+.sub-title {
     padding: 0 16px;
     border-left: 8px solid #9F1213;
+    font-weight: bold;
 
     @include phone {
         font-size: 24px;
