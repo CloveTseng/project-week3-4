@@ -27,7 +27,7 @@ export default defineConfig({
   // base: '/Repository 的名稱/'
   base: '/project-week3-4/',
   plugins: [
-    liveReload(['./layout/**/*.ejs', './pages/**/*.ejs', './project-week3-4/pages/**/*.html']),
+    liveReload(['./layout/**/*.ejs', './pages/**/*.ejs', './pages/**/*.html']),
     ViteEjsPlugin(),
     moveOutputPlugin(),
   ],
