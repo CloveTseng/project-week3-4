@@ -6,17 +6,27 @@
     }
 }
 
+<<<<<<< HEAD
 .sub-title {
     padding: 0 16px;
     border-left: 8px solid #9F1213;
     font-weight: bold;
+=======
+.stronghold-title {
+    padding: 0 16px;
+    border-left: 8px solid #9F1213;
+>>>>>>> efc743334989f026f53df732fe2784fda468bc25
 
     @include phone {
         font-size: 24px;
     }
 }
 
+<<<<<<< HEAD
 .select {
+=======
+.areas-select {
+>>>>>>> efc743334989f026f53df732fe2784fda468bc25
     margin-top: 33px;
     display: flex;
     align-items: center;
