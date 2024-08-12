@@ -27,13 +27,13 @@ export default defineConfig({
   // base: '/Repository 的名稱/'
   base: '/project-week3-4/',
   plugins: [
-    liveReload(['./layout/**/*.ejs', './pages/**/*.ejs', './pages/**/*.html']),
+    liveReload(['./layout/**/*.ejs', './pages/**/*.ejs', './project-week3-4/pages/**/*.html']),
     ViteEjsPlugin(),
     moveOutputPlugin(),
   ],
   server: {
     // 啟動 server 時預設開啟的頁面
-    open: 'pages/index.html',
+    open: 'pages/stronghold.html',
   },
   build: {
     rollupOptions: {
